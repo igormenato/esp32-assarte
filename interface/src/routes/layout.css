@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+
+:root {
+	--bg: #ede2d2;
+	--panel: #faf2e6;
+	--ink: #3c2b20;
+	--rose: #d79a8a;
+	--rose-strong: #4b2e28;
+	--rose-soft: #5c3a33;
+	--sage: #9cb99a;
+	--sage-strong: #274735;
+	--sage-soft: #355845;
+	--panel-shadow: 0 18px 40px rgba(116, 89, 58, 0.16);
+	--font-brand: 'Funnel Sans', 'Trebuchet MS', 'Segoe UI', sans-serif;
+	--font-ui: 'Geist', 'Segoe UI', system-ui, sans-serif;
+	--font-accent: 'Newsreader', 'Iowan Old Style', 'Georgia', serif;
+	color-scheme: light;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+	margin: 0;
+	min-height: 100%;
+}
+
+body {
+	min-width: 320px;
+	background: var(--bg);
+	color: var(--ink);
+	font-family: var(--font-ui);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+	font: inherit;
+}

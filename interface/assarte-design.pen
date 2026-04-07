@@ -1,0 +1,622 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "IWB33",
+      "x": 0,
+      "y": 0,
+      "name": "Production - Door Off Light On",
+      "width": 390,
+      "height": 844,
+      "fill": "#EDE2D2",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 24,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Huqgw",
+          "name": "mobHdr1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mQhEC",
+              "fill": "#3C2B20",
+              "content": "Casa Inteligente",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "IJXnO",
+              "fill": "#D79A8A",
+              "width": 80,
+              "height": 8
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WZUEc",
+          "name": "Component - Control Card",
+          "reusable": true,
+          "width": 342,
+          "fill": "#FAF2E6",
+          "cornerRadius": 20,
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#00000020",
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "blur": 20,
+            "spread": -2
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 24,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GLwcv",
+              "name": "Component - Door Button",
+              "reusable": true,
+              "width": 294,
+              "height": 200,
+              "fill": "#D79A8A",
+              "cornerRadius": 18,
+              "effect": [
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#7A4F5D15",
+                  "offset": {
+                    "x": 0,
+                    "y": 4
+                  },
+                  "blur": 12
+                },
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#FFFFFF40",
+                  "offset": {
+                    "x": 0,
+                    "y": 1
+                  }
+                }
+              ],
+              "layout": "vertical",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Bk6gq",
+                  "name": "doorIcon",
+                  "width": 34,
+                  "height": 40,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 3,
+                      "id": "NqZDV",
+                      "x": 6,
+                      "y": 2,
+                      "fill": "#00000000",
+                      "width": 20,
+                      "height": 36,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#3E2F25"
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "uGH0z",
+                      "x": 20,
+                      "y": 18,
+                      "fill": "#3E2F25",
+                      "width": 4,
+                      "height": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "dhKP8",
+                  "name": "doorTxt",
+                  "fill": "#4B2E28",
+                  "content": "FECHADO",
+                  "fontFamily": "Geist",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "8a0X9",
+                  "name": "doorCap",
+                  "fill": "#5C3A33",
+                  "content": "Porta",
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jcepa",
+              "name": "Component - Light Button",
+              "reusable": true,
+              "width": 294,
+              "height": 200,
+              "fill": "#9CB99A",
+              "cornerRadius": 18,
+              "effect": [
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#44634415",
+                  "offset": {
+                    "x": 0,
+                    "y": 4
+                  },
+                  "blur": 12
+                },
+                {
+                  "type": "shadow",
+                  "shadowType": "outer",
+                  "color": "#FFFFFF40",
+                  "offset": {
+                    "x": 0,
+                    "y": 1
+                  }
+                }
+              ],
+              "layout": "vertical",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Vhwaa",
+                  "name": "lightIcon",
+                  "width": 34,
+                  "height": 40,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "Cak9H",
+                      "x": 7,
+                      "y": 2,
+                      "fill": "#00000000",
+                      "width": 20,
+                      "height": 20,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#3E2F25"
+                      }
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "vhXQT",
+                      "x": 16,
+                      "y": 22,
+                      "fill": "#3E2F25",
+                      "width": 2,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "ocvlA",
+                      "x": 13,
+                      "y": 30,
+                      "fill": "#3E2F25",
+                      "width": 8,
+                      "height": 6
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "b9jMk",
+                  "name": "lightTxt",
+                  "fill": "#274735",
+                  "content": "LIGADO",
+                  "fontFamily": "Geist",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "u8svy",
+                  "name": "lightCap",
+                  "fill": "#355845",
+                  "content": "Luz",
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "I3qWH",
+              "name": "hintMobile",
+              "fill": "#A58D7C",
+              "content": "Segure o botão por 5s para corrigir o estado salvo",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "W7SeQ",
+      "x": 430,
+      "y": 0,
+      "name": "Production - Door On Light Off",
+      "width": 390,
+      "height": 844,
+      "fill": "#EDE2D2",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 24,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "9wh6M",
+          "name": "mobHdr2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "afosv",
+              "fill": "#3C2B20",
+              "content": "Casa Inteligente",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "Wofs7",
+              "fill": "#9CB99A",
+              "width": 80,
+              "height": 8
+            }
+          ]
+        },
+        {
+          "id": "FBBIY",
+          "type": "ref",
+          "ref": "WZUEc",
+          "name": "prodOnOff",
+          "height": "fit_content",
+          "x": 24,
+          "y": 201,
+          "descendants": {
+            "GLwcv": {
+              "fill": "#9CB99A",
+              "x": 24,
+              "y": 24
+            },
+            "Bk6gq": {
+              "x": 130,
+              "y": 33
+            },
+            "dhKP8": {
+              "content": "ABERTO",
+              "fill": "#274735",
+              "x": 86.5,
+              "y": 89
+            },
+            "8a0X9": {
+              "fill": "#355845",
+              "x": 122.5,
+              "y": 144
+            },
+            "jcepa": {
+              "fill": "#D79A8A",
+              "x": 24,
+              "y": 256
+            },
+            "Vhwaa": {
+              "x": 130,
+              "y": 33
+            },
+            "b9jMk": {
+              "content": "DESLIGADO",
+              "fill": "#4B2E28",
+              "x": 60,
+              "y": 89
+            },
+            "u8svy": {
+              "fill": "#5C3A33",
+              "x": 131,
+              "y": 144
+            },
+            "I3qWH": {
+              "x": 19,
+              "y": 488
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dmV7a",
+      "x": -1050,
+      "y": 1197,
+      "name": "Production Desktop - Centered - Door Off Light On",
+      "width": 1440,
+      "height": 900,
+      "fill": "#EDE2D2",
+      "layout": "vertical",
+      "gap": 80,
+      "padding": 64,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "uZaEK",
+          "name": "header",
+          "layout": "vertical",
+          "gap": 24,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "88NLJ",
+              "name": "title",
+              "fill": "#3C2B20",
+              "content": "Casa Inteligente",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 72,
+              "fontWeight": "700"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "blw3f",
+              "name": "accent",
+              "fill": "#D79A8A",
+              "width": 180,
+              "height": 12
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J9yUU",
+          "name": "panel",
+          "fill": "#FAF2E6",
+          "cornerRadius": 40,
+          "gap": 100,
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "LIv7h",
+              "type": "ref",
+              "ref": "GLwcv",
+              "name": "door",
+              "width": 360,
+              "height": 320,
+              "x": 80,
+              "y": 80,
+              "descendants": {
+                "Bk6gq": {
+                  "x": 163,
+                  "y": 90
+                },
+                "dhKP8": {
+                  "fontSize": 36,
+                  "x": 92.5,
+                  "y": 146
+                },
+                "8a0X9": {
+                  "fontSize": 16,
+                  "x": 158.5,
+                  "y": 209
+                }
+              }
+            },
+            {
+              "id": "fKs7D",
+              "type": "ref",
+              "ref": "jcepa",
+              "name": "light",
+              "width": 360,
+              "height": 320,
+              "x": 540,
+              "y": 80,
+              "descendants": {
+                "Vhwaa": {
+                  "x": 163,
+                  "y": 90
+                },
+                "b9jMk": {
+                  "fontSize": 36,
+                  "x": 111.5,
+                  "y": 146
+                },
+                "u8svy": {
+                  "fontSize": 16,
+                  "x": 165.5,
+                  "y": 209
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "L1Y1Z",
+          "name": "hintDesktop1",
+          "fill": "#A58D7C",
+          "content": "Segure o botão por 5s para corrigir o estado salvo",
+          "textAlign": "center",
+          "fontFamily": "Geist",
+          "fontSize": 16,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "78E3D",
+      "x": 470,
+      "y": 1197,
+      "name": "Production Desktop - Centered - Door On Light Off",
+      "width": 1440,
+      "height": 900,
+      "fill": "#EDE2D2",
+      "layout": "vertical",
+      "gap": 80,
+      "padding": 64,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "LXivk",
+          "name": "hdr",
+          "layout": "vertical",
+          "gap": 24,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "3O6k5",
+              "fill": "#3C2B20",
+              "content": "Casa Inteligente",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 72,
+              "fontWeight": "700"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "i8Pdt",
+              "fill": "#9CB99A",
+              "width": 180,
+              "height": 12
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IpJ5u",
+          "name": "pnl",
+          "fill": "#FAF2E6",
+          "cornerRadius": 40,
+          "gap": 100,
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "ZZwdL",
+              "type": "ref",
+              "ref": "GLwcv",
+              "width": 360,
+              "height": 320,
+              "fill": "#9CB99A",
+              "name": "door",
+              "descendants": {
+                "Bk6gq": {
+                  "x": 163,
+                  "y": 85
+                },
+                "dhKP8": {
+                  "content": "ABERTO",
+                  "fill": "#274735",
+                  "fontSize": 36,
+                  "x": 107,
+                  "y": 141
+                },
+                "8a0X9": {
+                  "fill": "#355845",
+                  "fontSize": 24,
+                  "x": 147.5,
+                  "y": 204
+                }
+              }
+            },
+            {
+              "id": "K35xs",
+              "type": "ref",
+              "ref": "jcepa",
+              "width": 360,
+              "height": 320,
+              "fill": "#D79A8A",
+              "name": "light",
+              "descendants": {
+                "Vhwaa": {
+                  "x": 163,
+                  "y": 85
+                },
+                "b9jMk": {
+                  "content": "DESLIGADO",
+                  "fill": "#4B2E28",
+                  "fontSize": 36,
+                  "x": 76,
+                  "y": 141
+                },
+                "u8svy": {
+                  "fill": "#5C3A33",
+                  "fontSize": 24,
+                  "x": 158.5,
+                  "y": 204
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "ZASdz",
+          "name": "hintDesktop2",
+          "fill": "#A58D7C",
+          "content": "Segure o botão por 5s para corrigir o estado salvo",
+          "textAlign": "center",
+          "fontFamily": "Geist",
+          "fontSize": 16,
+          "fontWeight": "500"
+        }
+      ]
+    }
+  ]
+}
