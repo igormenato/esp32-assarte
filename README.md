@@ -1,5 +1,3 @@
-# ESP32 Assarte
-
 ## Configure
 
 Edit [`include/app_config.h`](/home/igor/Developments/esp32-assarte/include/app_config.h):
